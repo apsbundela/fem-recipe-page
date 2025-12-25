@@ -11,30 +11,19 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop View](./DeskView.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/apsbundela/fem-recipe-page)
+- Live Site URL: (https://your-live-site-url.com)
 
 ## My process
 
@@ -43,13 +32,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -124,17 +106,19 @@ ol li::marker {
 ```
 ---
 
-## Mistake I did
+## Key Learnings
 
-- I always think in css for common css property I will create, common class.
-- But What I think I should create class for element if same element used at another place just reuse it (Make Simple)
-- Always provide consitent class name 
+- Initially, I focused on creating common CSS classes only for shared properties.
+- I realized that reusing the same class for the same element across different sections keeps the CSS simpler and more maintainable.
+- I now follow consistent and meaningful class-naming conventions.
+
+
 ### Useful resources
 
-- [Responsive Image Resizing](https://www.youtube.com/watch?v=gn0OaxS1OdY) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Responsive Image Resizing More optimized](https://www.youtube.com/watch?v=345V2MU3E_w) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [KV A practical guide to responsive web design] (https://www.youtube.com/watch?v=x4u1yp3Msao)
+- [Responsive Image Resizing](https://www.youtube.com/watch?v=gn0OaxS1OdY)
+- [Responsive Image Resizing More optimized](https://www.youtube.com/watch?v=345V2MU3E_w)
+- [KV A practical guide to responsive web design](https://www.youtube.com/watch?v=x4u1yp3Msao)
 
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/@apsbundela)
+- Frontend Mentor - [@apsbundela](https://www.frontendmentor.io/profile/@apsbundela)
