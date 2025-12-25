@@ -16,7 +16,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -54,50 +53,28 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-## `<article>` vs `<section>`
+#### 🎯`<article>` vs `<section>`
 
-### 🧾 Quick Comparison Table
+##### Quick Comparison Table
 
 | Element | Meaning | Use case | Rule |
 |--------|--------|----------|------|
 | `<article>` | Complete, independent content | Recipe, blog, product | Can stand alone |
 | `<section>` | Themed part of content | Ingredients, steps | Must have a heading (**IMPORTANT**) |
 
----
 
-### 🧠 Mental Rules (Easy Revision)
+##### Mental Rules (Easy Revision)
 
 - If it can be shared alone → `<article>`
 - If it’s a part of something → `<section>`
 
 ---
 
-### ❓ What does “themed part of content” mean?
-
-A **themed part of content** is a group of related information that:
-- Focuses on **one topic**
-- Can be described by a **single heading**
-
----
-
-### 🤔 Think in human terms 🧠
-
-Imagine explaining your recipe to someone:
-
-> “First I’ll tell you **ingredients**.  
-> Then I’ll explain **instructions**.  
-> After that, **nutrition**.”
-
-Each of those is a **theme**.
-
-
----
-
-## 🎨 How to Make List Dots (Bullets) Colored in CSS
+#### 🎯 How to Make List Dots (Bullets) Colored in CSS
 
 There are **two ways** to change the color of list dots (`ul > li`) in CSS.
 
-### ✅ Method 1: Using `::marker`
+##### Method 1: Using `::marker`
 
 The modern and simplest approach.
 
@@ -106,9 +83,9 @@ ul li::marker {
   color: red;
   font-size: 18px; /* optional */
 }
+```
 
-
-### ✅ Method 2: Using `Use list-style: none and create your own dot.`
+##### Method 2: Using `Use list-style: none and create your own dot.`
 
 ```css
 ul {
@@ -127,24 +104,25 @@ ul li::before {
   position: absolute;
   left: 0;
 }
+```
+----
+#### 🎯 How to move an ordered list marker slightly inside and control spacing between number and text?
+```css
 
+ol {
+  padding-left: 1.5rem; /* moves marker inward */
+}
+
+ol li {
+  padding-left: 0.75rem; /* space between marker & text */
+}
+
+ol li::marker {
+  font-weight: 700;
+  color: var(--Brown-800);
+}
+```
 ---
-
-## Logical Margins (Inline)
-
-- `margin-inline-start` and `margin-inline-end` define horizontal margins based on the **text direction**, not physical left/right.
-- In **LTR** layouts:  
-  - `inline-start` → left  
-  - `inline-end` → right
-- In **RTL** layouts, they automatically flip.
-
-**Shorthand**
-- `margin-inline: value;` → applies to both start and end
-- `margin-inline: start end;` → sets start and end separately
-
-These logical properties are recommended for **responsive and multilingual layouts**.
-
-
 
 ## Mistake I did
 
